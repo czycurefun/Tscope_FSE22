@@ -1,0 +1,507 @@
+[
+  {
+    "id": "TC-346-like",
+    "text": "Using the mouse, switch to visit history after opening the resource center, then browse the contents of each resource directory.",
+    "tokens": [
+      "using",
+      "the",
+      "mouse",
+      "switch",
+      "to",
+      "visit",
+      "history",
+      "after",
+      "opening",
+      "the",
+      "resource",
+      "center",
+      "then",
+      "browse",
+      "the",
+      "contents",
+      "of",
+      "each",
+      "resource",
+      "directory"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "visit history",
+        "start": 27,
+        "end": 40
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "switch to",
+        "start": 17,
+        "end": 26
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "after opening the resource center",
+        "start": 41,
+        "end": 74
+      },
+      {
+        "id": 3,
+        "type": "Manner",
+        "value": "mouse",
+        "start": 10,
+        "end": 15
+      },
+      {
+        "id": 4,
+        "type": "Component",
+        "value": "contents of each resource directory",
+        "start": 92,
+        "end": 127
+      },
+      {
+        "id": 5,
+        "type": "Behavior",
+        "value": "browse",
+        "start": 81,
+        "end": 87
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "switch to",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "after opening the resource center",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Use",
+        "head": 3,
+        "tail": 0,
+        "head_value": "mouse",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Act",
+        "head": 5,
+        "tail": 4,
+        "head_value": "browse",
+        "tail_value": "contents of each resource directory"
+      }
+    ]
+  },
+  {
+    "id": "TC-525-like",
+    "text": "Using the mouse, browse the visit history after opening the resource center.",
+    "tokens": [
+      "using",
+      "the",
+      "mouse",
+      "browse",
+      "the",
+      "visit",
+      "history",
+      "after",
+      "opening",
+      "the",
+      "resource",
+      "center"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "visit history",
+        "start": 28,
+        "end": 41
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "browse",
+        "start": 17,
+        "end": 23
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "after opening the resource center",
+        "start": 42,
+        "end": 75
+      },
+      {
+        "id": 3,
+        "type": "Manner",
+        "value": "mouse",
+        "start": 10,
+        "end": 15
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "browse",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "after opening the resource center",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Use",
+        "head": 3,
+        "tail": 0,
+        "head_value": "mouse",
+        "tail_value": "visit history"
+      }
+    ]
+  },
+  {
+    "id": "TC-525-dup",
+    "text": "With the mouse, view the visit history after opening the resource center.",
+    "tokens": [
+      "with",
+      "the",
+      "mouse",
+      "view",
+      "the",
+      "visit",
+      "history",
+      "after",
+      "opening",
+      "the",
+      "resource",
+      "center"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "visit history",
+        "start": 25,
+        "end": 38
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "view",
+        "start": 16,
+        "end": 20
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "after opening the resource center",
+        "start": 39,
+        "end": 72
+      },
+      {
+        "id": 3,
+        "type": "Manner",
+        "value": "mouse",
+        "start": 9,
+        "end": 14
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "view",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "after opening the resource center",
+        "tail_value": "visit history"
+      },
+      {
+        "type": "Use",
+        "head": 3,
+        "tail": 0,
+        "head_value": "mouse",
+        "tail_value": "visit history"
+      }
+    ]
+  },
+  {
+    "id": "TC-mesa",
+    "text": "When drawing 3D graphics, test gear rotation processing using the mesa-util tool.",
+    "tokens": [
+      "when",
+      "drawing",
+      "3d",
+      "graphics",
+      "test",
+      "gear",
+      "rotation",
+      "processing",
+      "using",
+      "the",
+      "mesa-util",
+      "tool"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "gear rotation processing",
+        "start": 31,
+        "end": 55
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "test",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "when drawing 3d graphics",
+        "start": 0,
+        "end": 24
+      },
+      {
+        "id": 3,
+        "type": "Manner",
+        "value": "mesa util tool",
+        "start": -1,
+        "end": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "test",
+        "tail_value": "gear rotation processing"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "when drawing 3d graphics",
+        "tail_value": "gear rotation processing"
+      },
+      {
+        "type": "Use",
+        "head": 3,
+        "tail": 0,
+        "head_value": "mesa util tool",
+        "tail_value": "gear rotation processing"
+      }
+    ]
+  },
+  {
+    "id": "TC-unixbench",
+    "text": "When drawing 3D graphics, test gear rotation processing using the UnixBench tool.",
+    "tokens": [
+      "when",
+      "drawing",
+      "3d",
+      "graphics",
+      "test",
+      "gear",
+      "rotation",
+      "processing",
+      "using",
+      "the",
+      "unixbench",
+      "tool"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "gear rotation processing",
+        "start": 31,
+        "end": 55
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "test",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "when drawing 3d graphics",
+        "start": 0,
+        "end": 24
+      },
+      {
+        "id": 3,
+        "type": "Manner",
+        "value": "unixbench tool",
+        "start": 66,
+        "end": 80
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "test",
+        "tail_value": "gear rotation processing"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "when drawing 3d graphics",
+        "tail_value": "gear rotation processing"
+      },
+      {
+        "type": "Use",
+        "head": 3,
+        "tail": 0,
+        "head_value": "unixbench tool",
+        "tail_value": "gear rotation processing"
+      }
+    ]
+  },
+  {
+    "id": "TC-preset-ftp",
+    "text": "After the system installation, verify preset applications including FTP application.",
+    "tokens": [
+      "after",
+      "the",
+      "system",
+      "installation",
+      "verify",
+      "preset",
+      "applications",
+      "including",
+      "ftp",
+      "application"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "preset applications",
+        "start": 38,
+        "end": 57
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "verify",
+        "start": 31,
+        "end": 37
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "after the system installation",
+        "start": 0,
+        "end": 29
+      },
+      {
+        "id": 3,
+        "type": "Constraint",
+        "value": "including ftp application",
+        "start": 58,
+        "end": 83
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "verify",
+        "tail_value": "preset applications"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "after the system installation",
+        "tail_value": "preset applications"
+      },
+      {
+        "type": "Satisfy",
+        "head": 3,
+        "tail": 0,
+        "head_value": "including ftp application",
+        "tail_value": "preset applications"
+      }
+    ]
+  },
+  {
+    "id": "TC-preset-basic",
+    "text": "After the system installation, verify preset applications.",
+    "tokens": [
+      "after",
+      "the",
+      "system",
+      "installation",
+      "verify",
+      "preset",
+      "applications"
+    ],
+    "entities": [
+      {
+        "id": 0,
+        "type": "Component",
+        "value": "preset applications",
+        "start": 38,
+        "end": 57
+      },
+      {
+        "id": 1,
+        "type": "Behavior",
+        "value": "verify",
+        "start": 31,
+        "end": 37
+      },
+      {
+        "id": 2,
+        "type": "Prerequisite",
+        "value": "after the system installation",
+        "start": 0,
+        "end": 29
+      }
+    ],
+    "relations": [
+      {
+        "type": "Act",
+        "head": 1,
+        "tail": 0,
+        "head_value": "verify",
+        "tail_value": "preset applications"
+      },
+      {
+        "type": "Require",
+        "head": 2,
+        "tail": 0,
+        "head_value": "after the system installation",
+        "tail_value": "preset applications"
+      }
+    ]
+  }
+]

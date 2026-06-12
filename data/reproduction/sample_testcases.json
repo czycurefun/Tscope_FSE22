@@ -1,0 +1,37 @@
+[
+  {
+    "id": "TC-346-like",
+    "text": "Using the mouse, switch to visit history after opening the resource center, then browse the contents of each resource directory.",
+    "note": "Two tuples: switch visit history with mouse; browse resource directory."
+  },
+  {
+    "id": "TC-525-like",
+    "text": "Using the mouse, browse the visit history after opening the resource center.",
+    "note": "Looks similar to TC-346-like, but browse directly acts on visit history."
+  },
+  {
+    "id": "TC-525-dup",
+    "text": "With the mouse, view the visit history after opening the resource center.",
+    "note": "Redundant with TC-525-like after behavior synonym normalization."
+  },
+  {
+    "id": "TC-mesa",
+    "text": "When drawing 3D graphics, test gear rotation processing using the mesa-util tool.",
+    "note": "Same component and prerequisite as TC-unixbench, different manner."
+  },
+  {
+    "id": "TC-unixbench",
+    "text": "When drawing 3D graphics, test gear rotation processing using the UnixBench tool.",
+    "note": "Same component and prerequisite as TC-mesa, different manner."
+  },
+  {
+    "id": "TC-preset-ftp",
+    "text": "After the system installation, verify preset applications including FTP application.",
+    "note": "Constraint says FTP application must be included."
+  },
+  {
+    "id": "TC-preset-basic",
+    "text": "After the system installation, verify preset applications.",
+    "note": "Similar to TC-preset-ftp but without the FTP constraint."
+  }
+]

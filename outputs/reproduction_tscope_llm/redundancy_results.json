@@ -1,0 +1,55 @@
+{
+  "method": "Tscope reproduction: preprocess, extract test-oriented entities and relations, dissect tuples, detect redundancy by tuple covering",
+  "input": "data/reproduction/sample_testcases.json",
+  "extractor": "llm",
+  "llm": {
+    "model": "deepseek-v4-flash",
+    "api_base_url": "https://antchat.alipay.com",
+    "key_source": "env:ANTCHAT_API_KEY or file:/home/public/minzhi/code/llm_judge_pressure_risk_sessions.py"
+  },
+  "threshold": 0.65,
+  "test_case_count": 7,
+  "redundant_pair_count": 2,
+  "redundant_pairs": [
+    {
+      "covering_test_case": "TC-525-like",
+      "redundant_test_case": "TC-525-dup",
+      "relation": "totally_equivalent",
+      "tuple_match_details": [
+        {
+          "left_index": 0,
+          "right_index": 0,
+          "equivalent": true,
+          "scores": {
+            "Component": 1.0,
+            "Behavior": 1.0,
+            "Prerequisite": 1.0,
+            "Manner": 1.0,
+            "Constraint": 1.0
+          },
+          "average": 1.0
+        }
+      ]
+    },
+    {
+      "covering_test_case": "TC-525-dup",
+      "redundant_test_case": "TC-525-like",
+      "relation": "totally_equivalent",
+      "tuple_match_details": [
+        {
+          "left_index": 0,
+          "right_index": 0,
+          "equivalent": true,
+          "scores": {
+            "Component": 1.0,
+            "Behavior": 1.0,
+            "Prerequisite": 1.0,
+            "Manner": 1.0,
+            "Constraint": 1.0
+          },
+          "average": 1.0
+        }
+      ]
+    }
+  ]
+}

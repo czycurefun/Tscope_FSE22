@@ -1,0 +1,93 @@
+[
+  {
+    "id": "TC-346-like",
+    "tuples": [
+      {
+        "Component": "visit history",
+        "Behavior": "switch to",
+        "Prerequisite": "after opening the resource center",
+        "Manner": "mouse",
+        "Constraint": "NULL"
+      },
+      {
+        "Component": "contents of each resource directory",
+        "Behavior": "browse",
+        "Prerequisite": "NULL",
+        "Manner": "NULL",
+        "Constraint": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "TC-525-like",
+    "tuples": [
+      {
+        "Component": "visit history",
+        "Behavior": "browse",
+        "Prerequisite": "after opening the resource center",
+        "Manner": "mouse",
+        "Constraint": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "TC-525-dup",
+    "tuples": [
+      {
+        "Component": "visit history",
+        "Behavior": "view",
+        "Prerequisite": "after opening the resource center",
+        "Manner": "mouse",
+        "Constraint": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "TC-mesa",
+    "tuples": [
+      {
+        "Component": "gear rotation processing",
+        "Behavior": "test",
+        "Prerequisite": "when drawing 3d graphics",
+        "Manner": "mesa util tool",
+        "Constraint": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "TC-unixbench",
+    "tuples": [
+      {
+        "Component": "gear rotation processing",
+        "Behavior": "test",
+        "Prerequisite": "when drawing 3d graphics",
+        "Manner": "unixbench tool",
+        "Constraint": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "TC-preset-ftp",
+    "tuples": [
+      {
+        "Component": "preset applications",
+        "Behavior": "verify",
+        "Prerequisite": "after the system installation",
+        "Manner": "NULL",
+        "Constraint": "including ftp application"
+      }
+    ]
+  },
+  {
+    "id": "TC-preset-basic",
+    "tuples": [
+      {
+        "Component": "preset applications",
+        "Behavior": "verify",
+        "Prerequisite": "after the system installation",
+        "Manner": "NULL",
+        "Constraint": "NULL"
+      }
+    ]
+  }
+]
